@@ -10,8 +10,7 @@ const connectDB = async () => {
     console.log("\u001b[1;35mConnection successful Database");
     
   } catch (error) {
-     console.error("\u001b[1;31m Connection failed " + error, error);
-    
+     console.error("\u001b[1;31m Connection failed " + error, error); 
   }
 };
 

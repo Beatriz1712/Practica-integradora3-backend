@@ -1,4 +1,3 @@
-
 <img src="/files/shoppingCart.jpg" style="max-block-size: 200px;">
 <div className="descproducto">
 
@@ -9,7 +8,7 @@
     <label for="description">Descripción del Producto</label>
     <input type="text" name="description">
 
-    <label for="price">Precio por minimo</label>
+    <label for="price">Precio </label>
     <input type="number" name="price">
 
     <label for="stock">Stock actual</label>
@@ -17,10 +16,10 @@
 
     <label for="category">Categoria</label>
     <select name="category">
-        <option value="Curados">Curados</option>
-        <option value="Embutidos">Embutidos</option>
-        <option value="Deshidratados">Deshidratados</option>
-        <option value="Cocidos">Cocidos</option>
+        <option value="uno">Uno</option>
+        <option value="dos">Dos</option>
+        <option value="tres">Tres</option>
+        <option value="cuatro">Cuatro</option>
     </select>
 
     <label for="thumbnails">Link de Miniatura sin fondo</label>
@@ -35,17 +34,14 @@
     <label for="carru3">Link de imagen 3</label>
     <input type="text" name="carru3">
 
-    <label for="minimo">Cantidad minima de venta</label>
-    <input type="number" name="minimo">
-
     <label for="availability">Disponibilidad</label>
-<div>
-    <input type="radio" id="availability-true" name="availability" value="true">
-    <label for="availability-true">Sí</label>
+    <div>
+        <input type="radio" id="availability-true" name="availability" value="true">
+        <label for="availability-true">Sí</label>
 
-    <input type="radio" id="availability-false" name="availability" value="false">
-    <label for="availability-false">No</label>
-</div>
+        <input type="radio" id="availability-false" name="availability" value="false">
+        <label for="availability-false">No</label>
+    </div>
 
     <button type="submit">Registrar producto</button>
 </form>
