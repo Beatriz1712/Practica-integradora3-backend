@@ -1,4 +1,5 @@
 import 'dotenv/config'
+import chalk from 'chalk';
 import app from './app.js';
 
 // Inicia la aplicación
