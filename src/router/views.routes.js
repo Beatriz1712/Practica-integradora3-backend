@@ -14,7 +14,7 @@ const cart = new CartManager
 //Pagina inicial
 router.get("/", (req, res)=> {
     res.render("home", {
-        title: "Dracarnis Home"
+        title: " Home"
     })
 })
 
@@ -40,7 +40,7 @@ router.get("/products", async (req, res) => {
     let allProducts = await product.getProducts()
     allProducts = allProducts.map(product => product.toJSON())
     res.render("productos", {
-        title: "Dracarnis | Productos",
+        title: " Productos",
         products : allProducts
     })
 })
